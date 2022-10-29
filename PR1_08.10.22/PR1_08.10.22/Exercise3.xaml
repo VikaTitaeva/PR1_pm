@@ -1,0 +1,16 @@
+﻿<Window x:Class="PR1_08._10._22.Exercise3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR1_08._10._22"
+        mc:Ignorable="d"
+        Title="Exercise3" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="Ex3Text_txtbl" HorizontalAlignment="Center" Margin="0,60,0,0" Text="Найти в массиве все числа, составленные из одних и тех же цифр" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="Input3_txtbx" HorizontalAlignment="Center" Margin="0,130,0,0" Text="Введите массив чисел" TextWrapping="Wrap" VerticalAlignment="Top" Width="308" Height="24" FontSize="14"/>
+        <Button x:Name="Done3_btn" Content="Применить" HorizontalAlignment="Center" Margin="0,180,0,0" VerticalAlignment="Top" Width="308" Height="24" FontSize="14" Click="Done3_btn_Click"/>
+        <TextBox x:Name="Output3_txtbx" HorizontalAlignment="Center" Margin="0,230,0,0" Text="Ответ" TextWrapping="Wrap" VerticalAlignment="Top" Width="308" Height="24" FontSize="14"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+﻿<Window x:Class="PR1_08._10._22.Exercise4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR1_08._10._22"
+        mc:Ignorable="d"
+        Title="Exercise4" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="Ex4Text_txtbl" HorizontalAlignment="Center" Margin="0,60,0,0" Text="Дан массив целых чисел x[1]..x[m+n], рассматриваемый как соединение двух его отрезков: начала x[1]..x[m] длины m и конца x[m+1]..x[m+n] длины n. Не используя дополнительных массивов, переставить начало и конец. (Число действий порядка m+n.)" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" TextAlignment="Center" Width="682"/>
+        <TextBox x:Name="Input4_txtbx" HorizontalAlignment="Center" Margin="0,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="308" Height="24" FontSize="14" Text="Исходный массив"/>
+        <Button x:Name="Done4_btn" Content="Применить" HorizontalAlignment="Center" Margin="0,230,0,0" VerticalAlignment="Top" Width="308" Height="24" FontSize="14" Click="Done4_btn_Click"/>
+        <TextBox x:Name="Output4_txtbx" HorizontalAlignment="Center" Margin="0,280,0,0" Text="Ответ" TextWrapping="Wrap" VerticalAlignment="Top" Width="308" Height="24" FontSize="14"/>
+
+    </Grid>
+</Window>

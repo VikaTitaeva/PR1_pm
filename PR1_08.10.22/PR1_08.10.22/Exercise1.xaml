@@ -1,0 +1,16 @@
+﻿<Window x:Class="PR1_08._10._22.Exercise1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR1_08._10._22"
+        mc:Ignorable="d"
+        Title="Exercise1" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="Ex1Text_txtbl" HorizontalAlignment="Center" Margin="0,60,0,0" Text="Число вводится своим двоичным представлением (длина числа не превышает 10000 двоичных разрядов). Необходимо определить, делится ли число на 15." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" FontWeight="Normal" TextAlignment="Center" Width="628"/>
+        <TextBox x:Name="Input1_txtbx" HorizontalAlignment="Center" Margin="0,130,0,0" Text="Введите число в двоичном представлении" TextWrapping="Wrap" VerticalAlignment="Top" Width="308" Height="24" TextAlignment="Left" FontSize="14" PreviewTextInput="Input1_txtbx_PreviewTextInput" TextChanged="Input1_txtbx_TextChanged"/>
+        <Button x:Name="Done1_btn" Content="Применить" HorizontalAlignment="Center" Margin="0,180,0,0" VerticalAlignment="Top" FontSize="14" Width="308" Height="24" Click="Done1_btn_Click"/>
+        <TextBox x:Name="Output1_txtbx" HorizontalAlignment="Center" Margin="0,230,0,0" Text="Ответ" TextWrapping="Wrap" VerticalAlignment="Top" Width="308" Height="24" FontSize="14"/>
+
+    </Grid>
+</Window>

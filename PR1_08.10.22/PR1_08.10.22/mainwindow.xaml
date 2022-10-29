@@ -1,0 +1,22 @@
+﻿<Window x:Name="MainWindow1" x:Class="PR1_08._10._22.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR1_08._10._22"
+        mc:Ignorable="d"
+        Title="Main" Height="450" Width="800">
+    <Grid x:Name="Main_frm">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="Option_lbl" Content="Вариант 1" Grid.Column="1" HorizontalAlignment="Left" Margin="349,60,0,0" VerticalAlignment="Top" Width="102" FontSize="18" FontWeight="Bold" Height="34" HorizontalContentAlignment="Center"/>
+        <Button x:Name="Exercise1_btn" Content="Задача 1" HorizontalAlignment="Center" Margin="0,130,0,0" VerticalAlignment="Top" Height="27" Width="272" Grid.Column="1" Click="Exercise1_btn_Click"/>
+        <Button x:Name="Exrecise2_btn" Content="Задача 2" HorizontalAlignment="Center" Margin="0,180,0,0" VerticalAlignment="Top" Grid.Column="1" Height="27" Width="272" Click="Exrecise2_btn_Click"/>
+        <Button x:Name="Exercise3_btn" Content="Задача 3" Margin="0,230,0,0" VerticalAlignment="Top" Height="27" HorizontalAlignment="Center" Width="272" Grid.Column="1" Click="Exercise3_btn_Click"/>
+        <Button x:Name="Exercise4_btn" Content="Задача 4" Margin="0,280,0,0" VerticalAlignment="Top" Height="27" HorizontalAlignment="Center" Width="272" Grid.Column="1" Click="Exercise4_btn_Click"/>
+        <Button x:Name="Exercise5_btn" Content="Задача 5" Margin="0,330,0,0" VerticalAlignment="Top" Height="27" HorizontalAlignment="Center" Width="272" Grid.Column="1" Click="Exercise5_btn_Click"/>
+
+    </Grid>
+</Window>
